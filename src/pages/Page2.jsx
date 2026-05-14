@@ -85,11 +85,11 @@ export default function Page2({ onNext }) {
           <p className="text-green-400 text-xs font-bold uppercase tracking-widest mb-4">💡 Simulação ilustrativa</p>
           <div className="space-y-3">
             {[
-              { label: 'Valor do apartamento',   valor: 'R$ 180.000', cor: 'text-white' },
+              { label: 'Valor do apartamento',   valor: 'R$ 205.000', cor: 'text-white' },
               { label: '(-) Subsídio MCMV',      valor: '− R$ 55.000', cor: 'text-green-400' },
               { label: '(-) FGTS como entrada',  valor: '− R$ 15.000', cor: 'text-green-400' },
-              { label: 'Valor a financiar',       valor: 'R$ 110.000', cor: 'text-white' },
-              { label: 'Parcela estimada',        valor: '≈ R$ 650/mês', cor: 'text-yellow-400' },
+              { label: 'Valor a financiar',       valor: 'R$ 135.000', cor: 'text-white' },
+              { label: 'Parcela estimada',        valor: '≈ R$ 686/mês', cor: 'text-yellow-400' },
             ].map((r, i) => (
               <div key={i} className={`flex justify-between text-sm ${i === 4 ? 'border-t border-gray-700 pt-3 text-base font-bold' : ''}`}>
                 <span className="text-gray-400">{r.label}</span>
